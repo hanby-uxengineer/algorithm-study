@@ -9,4 +9,6 @@ int main(){
     scanf("%d %d", &a, &b);
     printf("Case #%d: %d\n", i+1, a+b);
   }
+
+  return 0;
 }
