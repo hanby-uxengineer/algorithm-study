@@ -1,8 +1,8 @@
 import sys
 
 input = sys.stdin.readline
-n = int(input())
+t = int(input())
 
-for i in range(0, n):
+for i in range(0, t):
     a, b = map(int, input().split())
     print("Case #%d: %d" % (i+1, a+b))
